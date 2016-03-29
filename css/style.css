@@ -18,10 +18,16 @@ section{
 }
 
 ul{
+  list-style-type:none;
   display:inline-block;
+  padding:0px;
 }
 p{
   display:inline-block;
+}
+li{
+  padding-top:5px;
+  padding-bottom:6px;
 }
 
 .leftheadtext{
@@ -104,7 +110,44 @@ p{
   min-width: 100%;
   min-height: 100%;
 }
+.p1{
+  display:block;
+  font-family: 'Martel', serif;
+  font-size: 18px;
+  text-indent:35px;
+}
+.p2{
+  display:block;
+  font-family: 'Martel', serif;
+  font-size: 18px;
+  text-indent:35px;
+}
+.p3{
+  display:block;
+  font-family: 'Martel', serif;
+  font-size: 18px;
+  text-indent:35px;
+}
 .recipe{
   display:block;
   background-image:url("../img/list-bg.png");
+}
+.checkedbox:checked + .checkedlabel{
+  text-decoration:line-through;
+}
+.l1{
+  font-family: 'Patrick Hand', cursive;
+  margin:30px 100px 50px 50px;
+}
+.l2{
+  float:right;
+  margin:30px 300px 50px 100px;
+  font-family: 'Patrick Hand', cursive;
+}
+.bottomborder2{
+  margin-top:30px;
+background-image: url("../img/border-img.png");
+background-repeat: repeat-x;
+width: 100%;
+height: 20px;
 }
