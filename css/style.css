@@ -29,7 +29,9 @@ li{
   padding-top:5px;
   padding-bottom:6px;
 }
-
+button{
+  padding:0px;
+}
 .leftheadtext{
   text-align:
   padding-top: 0px;
@@ -150,4 +152,43 @@ background-image: url("../img/border-img.png");
 background-repeat: repeat-x;
 width: 100%;
 height: 20px;
+}
+.bio{
+  position:relative;
+  display:inline-block;
+  justify-content: center;
+  width:100%;
+}
+.biopic{
+  padding-bottom:0px;
+  margin-top:10px;
+}
+.bioname{
+  position: relative;
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+.bioname h1{
+  margin:0px;
+  font-size:12px;
+}
+.bioscript{
+  font-family: 'Martel', serif;
+  margin:0px;
+  font-size:10px;
+}
+.share{
+  margin-left:430px;
+  float:right;
+  padding-bottom:30px;
+  margin:0px;
+}
+.finallogo{
+  margin-left:490px;
+  display:block;
+}
+.copyright{
+  margin-left:380px;
+  margin-right:200px;
+  display:block;
 }
