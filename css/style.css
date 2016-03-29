@@ -1,0 +1,187 @@
+body{
+  position:absolute;
+}
+header{
+  position:relative;
+  margin-left:75px;
+  margin-right:192px;
+  width:100%;
+}
+div{
+  display:inline-block;
+}
+ul{
+  list-style-type:none;
+  display:inline-block;
+  padding:0px;
+}
+p{
+  display:inline-block;
+}
+li{
+  padding-top:5px;
+  padding-bottom:6px;
+}
+button{
+  padding:0px;
+}
+.leftheadtext{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.delicious{
+  margin-bottom: -15px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 200%;
+}
+
+.leftheader{
+  position: relative;
+  margin: 20px 192px 20px 75px;
+  width:75%;
+}
+.rightheader{
+  padding-top:30px;
+  padding-bottom:5px;
+  margin-top:10px;
+  float: right;
+}
+
+.underdelicious{
+  font-family: 'Martel', serif;
+  padding: 0px;
+  font-size: 15%;
+}
+
+.pintspace{
+  margin-right: 10px;
+}
+
+.bottomborder{
+  background-image: url("../img/border-img.png");
+  background-repeat: repeat-x;
+  margin: 0px 192px 0px 75px;
+  width: 75%;
+  height: 20px;
+}
+
+.bigpicture{
+  padding-left: 75px;
+  margin: 10px 180px 0px 75px;
+  width 75%;
+}
+.chocolatepizza{
+  margin:0px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+.dateposted{
+  font-family: 'Martel', serif;
+  opacity:0.5;
+  margin-top:0px;
+  padding:0px;
+  font-size:9px;
+}
+
+.print{
+  float:right;
+  font-family: 'Martel', serif;
+  margin-top:0px;
+  font-size:10px;
+}
+.fill{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  overflow:hidden;
+}
+.fill img{
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.p1{
+  display:block;
+  font-family: 'Martel', serif;
+  font-size: 18px;
+  text-indent:35px;
+}
+.p2{
+  display:block;
+  font-family: 'Martel', serif;
+  font-size: 18px;
+  text-indent:35px;
+}
+.p3{
+  display:block;
+  font-family: 'Martel', serif;
+  font-size: 18px;
+  text-indent:35px;
+}
+.recipe{
+  display:block;
+  background-image:url("../img/list-bg.png");
+}
+.checkedbox:checked + .checkedlabel{
+  text-decoration:line-through;
+}
+.l1{
+  font-family: 'Patrick Hand', cursive;
+  margin:30px 100px 50px 50px;
+}
+.l2{
+  float:right;
+  margin:30px 300px 50px 100px;
+  font-family: 'Patrick Hand', cursive;
+}
+.bottomborder2{
+  margin-top:30px;
+background-image: url("../img/border-img.png");
+background-repeat: repeat-x;
+width: 100%;
+height: 20px;
+}
+.bio{
+  position:relative;
+  width:100%;
+}
+.biopic{
+  padding-bottom:0px;
+  padding-top:0px;
+}
+.bioname{
+  position: relative;
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+.bioname h1{
+  padding-bottom:20px;
+  margin:0px;
+  font-size:12px;
+}
+.bioscript{
+  padding-right:430px;
+  font-family: 'Martel', serif;
+  margin:0px;
+  font-size:10px;
+}
+.share{
+  margin-left:430px;
+  float:right;
+  padding-bottom:30px;
+  margin:0px;
+}
+.button{
+  color:white;
+  background-color:  orange;
+  text-align:center;
+}
+.finallogo{
+  margin-left:490px;
+  display:block;
+}
+.copyright{
+  margin-left:380px;
+  margin-right:200px;
+  display:block;
+}
