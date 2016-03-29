@@ -5,18 +5,11 @@ header{
   position:relative;
   margin-left:75px;
   margin-right:192px;
-  border: 1px solid black;
   width:100%;
 }
-
 div{
   display:inline-block;
-  border: 1px solid black;
 }
-section{
-  border:1px solid black;
-}
-
 ul{
   list-style-type:none;
   display:inline-block;
@@ -33,14 +26,12 @@ button{
   padding:0px;
 }
 .leftheadtext{
-  text-align:
   padding-top: 0px;
   padding-bottom: 0px;
 }
 .delicious{
   margin-bottom: -15px;
   font-family: 'Yellowtail', cursive;
-  border: 1px solid black;
   font-size: 200%;
 }
 
@@ -59,7 +50,6 @@ button{
 .underdelicious{
   font-family: 'Martel', serif;
   padding: 0px;
-  border: 1px solid black;
   font-size: 15%;
 }
 
@@ -81,7 +71,6 @@ button{
   width 75%;
 }
 .chocolatepizza{
-  border:1px solid black;
   margin:0px;
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
@@ -89,7 +78,6 @@ button{
 .dateposted{
   font-family: 'Martel', serif;
   opacity:0.5;
-  border: 1px solid black;
   margin-top:0px;
   padding:0px;
   font-size:9px;
@@ -155,13 +143,11 @@ height: 20px;
 }
 .bio{
   position:relative;
-  display:inline-block;
-  justify-content: center;
   width:100%;
 }
 .biopic{
   padding-bottom:0px;
-  margin-top:10px;
+  padding-top:0px;
 }
 .bioname{
   position: relative;
@@ -169,10 +155,12 @@ height: 20px;
   padding-bottom:0px;
 }
 .bioname h1{
+  padding-bottom:20px;
   margin:0px;
   font-size:12px;
 }
 .bioscript{
+  padding-right:430px;
   font-family: 'Martel', serif;
   margin:0px;
   font-size:10px;
