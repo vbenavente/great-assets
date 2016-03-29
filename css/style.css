@@ -171,6 +171,11 @@ height: 20px;
   padding-bottom:30px;
   margin:0px;
 }
+.button{
+  color:white;
+  background-color:  orange;
+  text-align:center;
+}
 .finallogo{
   margin-left:490px;
   display:block;
